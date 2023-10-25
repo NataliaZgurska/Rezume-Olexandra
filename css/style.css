@@ -78,7 +78,7 @@ color: #404bbf;
 }
 
 .description {
-    font-size: 12px;
+    font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
  }
@@ -108,11 +108,16 @@ color: #404bbf;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
   }
 
+  .my-inform-name {
+    text-align: center;
+  }
 .my-inform-photo {
   margin: 0 auto;
 }
+
 
 /********MY CONTACTS *******/
 .my-contacts {
@@ -143,7 +148,10 @@ color: #404bbf;
   flex-direction: column;
   gap: 8px;
   }
-
+.projects-icon {
+   fill: #434455;
+  margin-right: 8px;
+}
 /**************  Work Experience ***********/
 
 .experience-container {
@@ -156,7 +164,7 @@ color: #404bbf;
 .companies-wrap {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 22px;
 }
 .company-container {
   display: flex;
@@ -231,7 +239,7 @@ color: #404bbf;
 .skills-wrap {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 22px;
 }
 .tech-skills {
   
@@ -242,10 +250,10 @@ color: #404bbf;
 .skills-list {
     display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 .skills-item {
-    font-size: 12px;
+    font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
@@ -279,9 +287,10 @@ color: #404bbf;
 .my-inform-name {
   text-align: left;
 }
-.my-inform-descr {
-  max-width: 320px;
-}
+.description {
+    font-size: 18px;
+   }
+
 .my-inform-photo {
   display: none;
 }
@@ -381,9 +390,11 @@ color: #404bbf;
 .my-inform-name {
   text-align: left;
 }
+/*
 .my-inform-descr {
   max-width: 320px;
-}
+}*/
+
 .my-inform-photo {
   display: none;
 }
@@ -423,7 +434,7 @@ color: #404bbf;
   .side-contacts-list {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
   }
 .side-contacts-icon,
 .skills-icon {
@@ -440,7 +451,7 @@ color: #404bbf;
     }
 
 .skills-wrap {
-  gap: 14px;
+  gap: 18px;
 }
 
 .footer-container {
