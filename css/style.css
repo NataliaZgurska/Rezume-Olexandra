@@ -250,7 +250,7 @@ color: #404bbf;
 .skills-list {
     display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 .skills-item {
     font-size: 14px;
@@ -331,7 +331,7 @@ color: #404bbf;
   .side-contacts-list {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
   }
 .side-contacts-icon,
 .skills-icon {
@@ -353,7 +353,7 @@ color: #404bbf;
 }
 
 .skills-wrap {
-  gap: 14px;
+  gap: 22px;
 }
 
 .footer-container {
